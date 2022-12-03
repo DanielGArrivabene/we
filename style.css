@@ -1,0 +1,13 @@
+@charset "UTF-8"
+
+:root {
+    --cor1: #C0BAF5;
+    --cor2: #EBE279;
+    --cor3: #E0CC41;
+    --cor4: #FF1600;
+    --cor5: #94111A;
+}
+
+header {
+    background-image: linear-gradient(0deg, #b60900, #eb3904, #eb5702, #e48e04, #f6fa01);
+}
