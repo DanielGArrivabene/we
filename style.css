@@ -1,4 +1,5 @@
 @charset "UTF-8"
+ @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Audiowide&family=Bebas+Neue&family=Berkshire+Swash&display=swap');
 
 :root {
     --cor1: #C0BAF5;
@@ -6,8 +7,42 @@
     --cor3: #E0CC41;
     --cor4: #FF1600;
     --cor5: #94111A;
+
+    --fontdestaque: 'Arizonia', coursive;
+}
+
+* {
+    margin: 0em;
 }
 
 header {
-    background-image: linear-gradient(0deg, #b60900, #eb3904, #eb5702, #e48e04, #f6fa01);
+    padding-top: 20px;
+    background-image: linear-gradient(0deg,#f6fa01,#e48e04,#eb5702);
+    text-align: center;
+    height: 150px;
+
+}
+
+header > h2 {
+    font-family: var(--fontdestaque);
+    font-size: 2.1em;
+}
+
+header > p {
+    margin: 10px;
+    margin-bottom: 35px;
+    font-family: var(--fontdestaque);
+    font-size: 1.7em;
+}
+
+header > nav {
+    text-align: left;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+main > p {
+    text-indent: 2em;
 }
