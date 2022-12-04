@@ -80,7 +80,7 @@ main {
 }
 
 article#principal {
-    max-width: 800px;
+    max-width: 750px;
     background-color: #94111a5b;
     margin: auto;
     padding: 15px;
@@ -94,7 +94,7 @@ article > p {
 }
 
 .history {
-    max-width: 800px;
+    max-width: 650px;
     margin: auto;
 }
 
@@ -115,11 +115,6 @@ section {
     text-align: center;
 }
 
-.list {
-    max-width: 800px;
-    text-align: justify;
-}
-
 section > p {
     text-indent: 2em;
     line-height: 1.4em;
@@ -134,7 +129,7 @@ h2 {
 }
 
 .objetive {
-    max-width: 800px;
+    max-width: 650px;
     text-align: justify;
 }
 
@@ -152,6 +147,26 @@ h3 {
     margin: 1em;
 }
 
+
+.link {
+    text-align: center;
+    padding: 10px;
+}
+
+.link > a {
+    text-decoration: none;
+    padding: 0.3em;
+    color: rgb(192, 189, 16);
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgb(148, 18, 18);
+}
+
+.link > a:hover {
+    background-color: rgb(219, 218, 113);
+    color: #af1414;
+    border: none;
+}
 
 footer {
     background-color: rgb(206, 203, 23);
