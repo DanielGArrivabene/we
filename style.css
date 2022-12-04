@@ -153,7 +153,7 @@ h3 {
     font-family: var(--fontdestaque);
     font-size: 1.8em;
     color: #c6c928;
-    text-shadow: 0px 0px 40px #ff0202;
+    text-shadow: 0px 0px 40px rgb(180, 180, 180);
     margin: 1em;
 }
 
@@ -166,10 +166,10 @@ h3 {
 .link > a {
     text-decoration: none;
     padding: 0.3em;
-    color: rgb(192, 189, 16);
+    color: rgb(177, 174, 25);
     font-weight: bold;
     border-radius: 5px;
-    border: 1px solid rgb(148, 18, 18);
+    box-shadow: 0px 0px 40px rgba(223, 36, 36, 0.664);
 }
 
 .link > a:hover {
