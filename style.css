@@ -36,6 +36,7 @@ header > h2 {
     font-size: 2.1em;
     color: #af1414;
     text-shadow: #f6fa01 0px 10px 17px;
+    text-align: center;
 }
 
 header > p {
@@ -67,15 +68,66 @@ nav > a:hover {
 }
 
 main {
+    margin: auto;
+}
+
+article > p {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+.history {
     max-width: 800px;
     margin: auto;
 }
-main > p {
+
+.history > h1 {
+    margin-top: 0.6em;
+}
+
+.img {
+    margin-left: 10px;
+    display: inline-block;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid black;
+}
+section {
+    margin: auto;
+    text-align: center;
+}
+
+.list {
+    max-width: 800px;
+    text-align: justify;
+}
+
+section > p {
     text-indent: 2em;
+}
+
+h2 {
+    text-align: left;
+}
+
+.objetive {
+    max-width: 800px;
+    text-align: justify;
+}
+
+
+h3 {
+    text-align: center;
+    font-family: var(--fontdestaque);
+    font-size: 1.8em;
+    color: #949628;
+    text-shadow: 0px 0px 30px #ff0202;
 }
 
 
 footer {
-    background-color: green;
+    background-color: rgb(197, 194, 9);
     text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0.1em;
 }
