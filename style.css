@@ -110,6 +110,13 @@ article > p {
     max-width: 400px;
     text-align: center;
 }
+
+span {
+    color: #c6c928;
+    font-family: var(--fontlove);
+    font-size: 2em;
+}
+
 section {
     margin: auto;
     text-align: center;
@@ -142,8 +149,8 @@ h3 {
     text-align: center;
     font-family: var(--fontdestaque);
     font-size: 1.8em;
-    color: #949628;
-    text-shadow: 0px 0px 20px #ff0202;
+    color: #c6c928;
+    text-shadow: 0px 0px 40px #ff0202;
     margin: 1em;
 }
 
@@ -166,6 +173,7 @@ h3 {
     background-color: rgb(219, 218, 113);
     color: #af1414;
     border: none;
+    transition-duration: 2s;
 }
 
 footer {
