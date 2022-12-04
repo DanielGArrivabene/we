@@ -1,5 +1,6 @@
 @charset "UTF-8"
- @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Audiowide&family=Bebas+Neue&family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Audiowide&family=Bebas+Neue&family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lovers+Quarrel&display=swap');
 
 :root {
     --cor1: #C0BAF5;
@@ -9,6 +10,7 @@
     --cor5: #94111A;
 
     --fontdestaque: 'Arizonia', coursive;
+    --fontlove: 'Lovers Quarrel', coursive
 }
 
 * {
@@ -19,24 +21,49 @@ header {
     padding-top: 20px;
     background-image: linear-gradient(0deg,#f6fa01,#e48e04,#eb5702);
     text-align: center;
-    height: 150px;
+    height: 170px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+header > h1 {
+    color: #be0b0bd5;
+    text-shadow: #dbd807 0px 10px 17px;
+    margin-bottom: 10px;
 }
 
 header > h2 {
-    font-family: var(--fontdestaque);
+    font-family: var(--fontlove);
     font-size: 2.1em;
+    color: #af1414;
+    text-shadow: #f6fa01 0px 10px 17px;
 }
 
 header > p {
     margin: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     font-family: var(--fontdestaque);
     font-size: 1.7em;
+    color: rgb(197, 43, 23);
+    text-shadow: #FF1600 0px 10px 15px;
 }
 
 header > nav {
     text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 0.3em;
+    margin-left: 0.2em;
+    color: rgb(148, 18, 18);
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgb(148, 18, 18);
+}
+
+nav > a:hover {
+    background-color: rgba(199, 12, 12, 0.836);
+    color: #f6fa01e7;
 }
 
 main {
@@ -45,4 +72,10 @@ main {
 }
 main > p {
     text-indent: 2em;
+}
+
+
+footer {
+    background-color: green;
+    text-align: center;
 }
