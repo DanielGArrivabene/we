@@ -65,6 +65,7 @@ nav > a {
 nav > a:hover {
     background-color: rgba(199, 12, 12, 0.836);
     color: #f6fa01e7;
+    transition-duration: 0.4s;
 }
 
 main {
@@ -74,6 +75,7 @@ main {
 article > p {
     text-indent: 2em;
     text-align: justify;
+    
 }
 
 .history {
@@ -90,7 +92,6 @@ article > p {
     display: inline-block;
     max-width: 400px;
     text-align: center;
-    border: 1px solid black;
 }
 section {
     margin: auto;
